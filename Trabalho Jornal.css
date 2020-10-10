@@ -1,0 +1,160 @@
+header {
+	background-image: url("Clarim Diário.jpg");
+	background-size: 100%;
+}
+h1 {
+	text-align: center;
+	color: #FF0000;
+	font-family: Arial;
+	font-size: 40px;
+}
+h2 {
+	text-align: center;
+	color: #B22222;
+	font-family: Arial;
+	font-size: 35px;
+}
+body {
+	background-color: black;
+}
+.primeiro {
+	color: #0000FF;
+	font-family: Arial;
+	font-size: 30px;
+	text-decoration: none;
+}
+iframe {
+	display: block;
+    margin-left: auto;
+   	margin-right: auto;
+}
+div {
+	text-align: center;
+}
+.release_date {
+	color: white;
+	text-align: center;
+}
+.foot-links {
+    color: #d5d5d5;
+    font-size: 12px;
+    display: inline-block;
+	font-family: Arial, "sans-serif";
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+.img1 {
+	float: left;
+}
+.img2 {
+	float: right;
+}
+.borda {
+	border: 5px solid #FF0000;
+	border-radius: 10px;
+}
+.link {
+	color: #00BFFF;
+	font-family: italic;
+	font-size: 20px;
+}
+.fundo {
+	border: 5px solid #B22222;
+	border-radius: 10px;
+}
+a.primeiro:hover {
+	color: yellow;
+}
+a.primeiro:active {
+	color: purple;
+}
+a.link:link {
+	color: #00BFFF;
+}
+a.link:visited {
+	color: #7B68EE;
+}
+a.link:hover {
+	color: yellow;
+}
+.efeito {
+	animation: cor 1s linear;
+	animation-iteration-count: infinite;
+	transition: font-style 2s linear;
+}
+@keyframes cor {
+	0% {
+		color: #FF0000;
+		letter-spacing: normal;
+	}
+	25% {
+		color: #B22222;
+		letter-spacing: 1px;
+	}
+	35% {
+		color: #FF0000;
+		letter-spacing: 5px;
+	}
+	50% {
+		color: #B22222;
+		letter-spacing: 10px;
+	}
+	65% {
+		color: #FF0000;
+		letter-spacing: 5px;
+	}
+	75% {
+		color: #B22222;
+		letter-spacing: 1px;
+	}
+	100% {
+		color: #FF0000;
+		letter-spacing: normal;
+	}
+}
+.efeito2 {
+	animation: coor 1s linear;
+	animation-iteration-count: infinite;
+	transition: font-style 2s linear;
+}
+@keyframes coor {
+	0% {
+		color: #B22222;
+		letter-spacing: normal;
+	}
+	25% {
+		color: #FF0000;
+		letter-spacing: 1px;
+	}
+	35% {
+		color: #B22222;
+		letter-spacing: 5px;
+	}
+	50% {
+		color: #FF0000;
+		letter-spacing: 6px;
+	}
+	65% {
+		color: #B22222;
+		letter-spacing: 5px;
+	}
+	75% {
+		color: #FF0000;
+		letter-spacing: 1px;
+	}
+	100% {
+		color: #B22222;
+		letter-spacing: normal;
+	}
+}
+.efeito:active {
+	font-style: italic;
+}
+.efeito2:active {
+	font-style: italic;
+}
